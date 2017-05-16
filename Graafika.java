@@ -33,7 +33,7 @@ public class Graafika extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        List<Retsept> söögid = retseptid("C:\\Users\\Maali\\IdeaProjects\\PROJEKT\\src\\retseptid.txt");
+        List<Retsept> söögid = retseptid("retseptid.txt");
 
         Stage lava = new Stage();
 
